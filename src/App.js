@@ -54,10 +54,10 @@ const App = () => {
               <br/>
               <Form.Control className="formNLdetail" type="text" placeholder="Email" />
             </div>
-            <img className="btnNL" src="Img/buttonNL.png" />
+            <a href=""><img className="btnNL" src="Img/buttonNL.png" /></a>
           </div>
           <HomeFooter />
-          <img className="btn-green" src="Img/hubungi-kami.png" />
+          <a href=""><img className="btn-green" src="Img/hubungi-kami.png" /></a>
           <Copywrite />
           <NavBar />
         </div>

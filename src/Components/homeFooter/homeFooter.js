@@ -18,34 +18,45 @@ const homeFooter = () => {
               <Container>
                 <Row>
                   <Col sm={4} className="blockFooter">
-                      <div className="titlevFooter">
-                          Program
-                      </div>
+                    <div className="titlevFooter">
+                      Program
+                    </div>
+                    <a href="">
                       <div className="valueFooter">Semua Program</div>
+                    </a>
+                    <a href="">
                       <div className="valueFooter">Berita Terbaru</div>
-                      
+                    </a>
                   </Col>
                   <Col sm={4} className="blockFooter">
-                      <div className="titlevFooter">
-                          Hubungi Kami
-                      </div>
-                          <div className="valueFooter">Pesan Whatsapp</div>
-                          <div className="valueFooter">Pusat Bantuan</div>
-                    
+                    <div className="titlevFooter">
+                      Hubungi Kami
+                    </div>
+                    <a href="">
+                      <div className="valueFooter">Pesan Whatsapp</div>
+                    </a>
+                    <a href="">
+                      <div className="valueFooter">Pusat Bantuan</div>
+                    </a>
                   </Col>
                   <Col sm={4}className="blockFooter">
-                      <div className="titlevFooter">
-                          Perusahaan
-                      </div>
-                          <div className="valueFooter">Tentang Kami</div>
-                          <div className="valueFooter">Program Kami</div>
-                          <div className="valueFooter">Blog</div>
-                    
+                    <div className="titlevFooter">
+                      Perusahaan
+                    </div>
+                    <a href="">
+                      <div className="valueFooter">Tentang Kami</div>
+                    </a>
+                    <a href="">
+                      <div className="valueFooter">Program Kami</div>
+                    </a>
+                    <a href="">
+                      <div className="valueFooter">Blog</div>
+                    </a>
                   </Col>
                 </Row>
               </Container>
             </div>
-            <img className="socFooter" src="Img/Social.png" />
+            <a href=""><img className="socFooter" src="Img/Social.png" /></a>
         </div>
     )
 }

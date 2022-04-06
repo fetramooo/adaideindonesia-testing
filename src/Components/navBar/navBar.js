@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col'
 
 const navBar = () => {
     return (
+        <a href="">
         <div className="classBar">
             <Container>
               <Row xs="auto">
@@ -27,6 +28,7 @@ const navBar = () => {
               </Row>
             </Container>
         </div>
+        </a>
     )
 }
 
