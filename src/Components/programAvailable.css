@@ -1,0 +1,69 @@
+.comProgram {
+    position: relative;
+    width: 440px;
+    height: 140px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.tittle {
+    width: 200px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    padding-top: 5px;
+    color: black;
+}
+
+.pict img {
+    position: absolute;
+    width: 215px;
+    height: 138px;
+    margin-left: -25px;
+}
+
+.bb {
+    margin-left: 0px;
+}
+
+.vv {
+    width: 400px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.minitable {
+    width: 250px;
+    position: absolute;
+    margin-left: -25px;
+}
+
+.slim {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #B5B5B5;
+}
+
+.bold {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #202124;
+}
+
+.ket {
+    padding-left: 0px;
+}
