@@ -1,11 +1,10 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Form from 'react-bootstrap/Form'
-import ProgramAvailable from './Components/programAvailable.js'
-import HomeFooter from './Components/homeFooter.js'
-import Copywrite from './Components/copywrite.js'
-import NavBar from './Components/navBar.js'
-import { Container } from 'react-bootstrap';
+import ProgramAvailable from './Components/programAvailable/programAvailable.js'
+import HomeFooter from './Components/homeFooter/homeFooter.js'
+import Copywrite from './Components/copyWriter/copywrite.js'
+import NavBar from './Components/navBar/navBar.js'
 <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet"></link>
 
 const App = () => {
@@ -20,9 +19,12 @@ const App = () => {
             <div>
               <p>Berkat Bantuan Anda</p>
             </div>
-            <div className="frame">
-                <div className="f1"><img src="Img/Frame390.png" /></div>
-                <div className="f1"><img src="Img/Frame390.png" /></div>
+            <div className="content-slider">
+                <div className="content-slider-item"><img src="Img/Frame390.png" /></div>
+                <div className="content-slider-item"><img src="Img/Frame390.png" /></div>
+                <div className="content-slider-item"><img src="Img/Frame390.png" /></div>
+                <div className="content-slider-item"><img src="Img/Frame390.png" /></div>
+                <div className="content-slider-item"><img src="Img/Frame390.png" /></div>
             </div>
           </div>
           <div className="programList">
@@ -31,7 +33,15 @@ const App = () => {
             </div>
             <div>
               <ProgramAvailable />
-              <div className="more">Muat Lebih Banyak</div>
+              <ProgramAvailable />
+              <ProgramAvailable />
+              <ProgramAvailable />
+              <ProgramAvailable />
+              <div className="">
+                <a href="" className="more">
+                  Muat Lebih Banyak
+                </a>
+              </div>
             </div>
           </div>
           <div className="newsLetter">

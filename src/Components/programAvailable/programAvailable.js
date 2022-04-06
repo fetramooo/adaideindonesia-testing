@@ -3,12 +3,26 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import DonasiDetail from '../../DonasiDetail';
+import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
+function program() {
+    return (
+        <Router>
+            <div className="">
+                <Link>
+                    <Route path="/donasidetail" component={DonasiDetail} />
+                </Link>
+            </div>
+        </Router>
+    );
+}
 
 const programAvailable = () => {
     return (
         <div className="vv">
             <Container className="comProgram">
+            <a href="/donasidetail">
                 <Row className="bb">
                     <Col xs={6} className="pict">
                         <img src="Img/program1.png" />
@@ -41,6 +55,7 @@ const programAvailable = () => {
                         </div>
                     </Col>
                 </Row>
+                </a>
             </Container>
         </div>
     )

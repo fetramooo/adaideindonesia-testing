@@ -51,7 +51,7 @@ p {
   width: 200px;
   text-align: center;
   letter-spacing: 0.01em;
-  margin: auto;
+  margin-left: 170px;
   padding-top: 15px;
   padding-bottom: 30px;
 }
@@ -61,6 +61,7 @@ p {
   height: 316px;
   background-color: #EFFAFF;
   padding-top: 15px;
+  margin-top: 20px;
 }
 
 .captionNL {
@@ -104,4 +105,19 @@ p {
   position: absolute;
   margin-top: -40px;
   margin-left: 143px;
+}
+
+.content-slider {
+  overflow-x : auto;
+  display: flex;
+  position: relative;
+  margin-left: 20px;
+}
+
+.content-slider .content-slider-item {
+    width: 283px;
+    height: 183px;
+    margin: 8px;
+    margin-left: 0;
+    flex-shrink: 0;
 }
