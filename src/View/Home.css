@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.app {
+  background-color: #dfdfdf;
+  position: relative;
+}
+
+.page {
+  width: 480px;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #202124;
+  padding-top : 10px;
+  padding-left: 20px;
+  margin-bottom : 10px;
+}
+
+.frame {
+  margin-left: 20px;
+  display : flex;
+  overflow-x : scroll;
+}
+
+.f1 {
+  margin-right: 10px;
+  width: 263px;
+  height: 163px;
+}
+
+.bantuan {
+  padding-top: 15px;
+}
+
+.more {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFB600;
+  width: 200px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  margin-left: 170px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.newsLetter {
+  width: 480px;
+  height: 316px;
+  background-color: #EFFAFF;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.captionNL {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #5F6368;
+  width: 440px;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.formNL {
+  width: 440px;
+  height: 90px;
+  margin: auto;
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  color: #B5B5B5;
+  font-size: 14px;
+}
+
+.formNLdetail {
+  font-family: 'Poppins';
+  color: #B5B5B5;
+  font-size: 14px;
+}
+
+.btnNL {
+  margin-left: 150px;
+  margin-top: 22px;
+}
+
+.btn-green {
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 143px;
+}
+
+.content-slider {
+  overflow-x : auto;
+  display: flex;
+  position: relative;
+  margin-left: 20px;
+}
+
+.content-slider .content-slider-item {
+    width: 283px;
+    height: 183px;
+    margin: 8px;
+    margin-left: 0;
+    flex-shrink: 0;
+}

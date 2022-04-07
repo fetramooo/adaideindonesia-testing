@@ -3,20 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import DonasiDetail from '../../DonasiDetail';
+import DonasiDetail from '../../View/DonasiDetail';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
-
-function program() {
-    return (
-        <Router>
-            <div className="">
-                <Link>
-                    <Route path="/donasidetail" component={DonasiDetail} />
-                </Link>
-            </div>
-        </Router>
-    );
-}
 
 const programAvailable = () => {
     return (
